@@ -15,7 +15,7 @@ int accCountsR = 0;
 int commandSelected = 0; // 0 -> F, 1 -> backwards, 2 -> right, 3 -> left
 int speedSelected = 100; // A speed between 0 and 400
 int timeSelected = 1; // Seconds the command should run
-int actualStage = 0;
+int actualStage = 0; // The current stage of the Rover
 int nCommands = 1; //Number of commands
 int iterations = 0; //Iterations of stage 1,2 and 3
 
